@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+        background:#6207c3;
+        color:white;
+        font-family:sans-serif;
+
+}
+.main{
+    display:flex;
+    justify-content:flex-end;
+    height:100vh;
+    width:100%;
+}
+.main .first{
+    width:45%;
+    background:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.main .first h2{
+    font-size:70px;
+}
+.main .first span{  
+    font-size:130px;
+    
+}
+.main .first p{
+    width:70%;
+    margin-top:60px;
+}
+.main .first i{
+    margin-top:60px;
+    font-size:40px;
+}
+
+.main .second{   
+width:47%;
+}
+
+.main .second img{
+    width:100%;
+height:100vh;
+}
+
+@media screen and (max-width:954px){
+
+.main .first h2{
+    font-size:40px;
+}
+.main .first span{  
+    font-size:90px;
+    
+}
+.main .first p{
+    width:80%;
+    margin-top:40px;
+}
+.main .first i{
+    margin-top:60px;
+    font-size:30px;
+}
+
+.main .second{   
+width:50%;
+}
+
+.main .second img{
+    width:100%;
+height:100%;
+}
+
+
+}
+
+@media screen and (max-width:751px){
+.main{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+    flex-direction:column;
+
+}
+.main .first{
+    width:90%;
+    background:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.main .first h2{
+    font-size:50px;
+}
+.main .first span{  
+    font-size:90px;
+    
+}
+.main .first p{
+    width:80%;
+    margin-top:30px;
+}
+.main .first i{
+    margin-top:60px;
+    margin-bottom:60px;
+    font-size:60px;
+}
+
+.main .second{   
+width:90%;
+}
+
+.main .second img{
+    maz-width:100%;
+    height:100%;
+}
+
+
+}
